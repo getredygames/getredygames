@@ -50,125 +50,119 @@ table {
 
 .main-container {
     width: 100%;
-    background-color: rgb(29, 29, 29);
+    height: 100px;
+    background-color: rgb(27 27 27);
     display: flex;
     justify-content: center;
-    border-bottom-style: dashed;
-
-   
     
-}
 
-.top {
-    width: 80%;
-    height: 93px;
-    background-color: rgb(29, 29, 29);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-   
 }
-
 
 .logo {
-    background-color: rgb(29, 29, 29);
     display: flex;
-    justify-content: center;
-    padding: 5px 0 10px;
-    
-}
-
-.zaps {
-    height: 93px;
-    background-color: rgb(29, 29, 29);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
-}
-
-.sociale {
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(27 27 27);
+    width: 75%;
     height: 100%;
-    max-width: 100%;
-    justify-content: end;
-    display: flex;
-    align-items: center;
-    
+    flex-direction: row;
+    justify-content: flex-end;
+
 }
 
 
-
-
-.social-box {
-    background-color: rgb(29, 29, 29);
-    width: 15%;
-    max-width: 100%;
-    display: flex;
-    justify-content: space-between;
-   align-items: end;
- 
-}
 
 .zdj  {
     width: 33px;
     height: 33px;
+    padding: 0 8px 0 0;
 }
 
-#sitelogo   {
+.sitelogo   {
     height: 93px;
     width: 140px;
-   
+   padding: 5px;
 }
 
 
 
 .pages {
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(27 27 27);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     height: 100%;   
-   justify-content: center;
-   display: flex;
-   align-items: center;
-   padding-left: 50px;
-   border-bottom-style: dashed;
-   border-color: red;
+    width: 65%;
 }
 
+.social {
+    background-color: rgb(27 27 27);
+    display: flex;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+ 
+    
+}
 
-.pages a    { 
+.pagelink { 
     
     font-family: 'NOTO SERIF JP';
     font-size: 18px;
-    filter: drop-shadow(2px 1px 2px, (rgb(2,2,2)));
     text-decoration: none;
     color: aliceblue;
+    padding: 10px;
     
 }
 
 .pages a:hover {
     color: crimson;
     transition-delay:0.05s;
-    background-color: rgb(27,27,27);
+    background-color: rgb(41, 41, 41);
     
 }
 
 body  {
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(27 27 27);
 }
 
-.pages ul {
-  display: flex; 
-  list-style-type: none;
-  margin: 0;
-  padding: 10px;
+.subbody {
+    background-color: rgb(37 37 37);
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
 }
 
-.pages li a {
-    padding: 8px 16px;
-    text-align: -webkit-match-parent;
+.main {
+ 
+    background-color: rgb(37 37 37);
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+#gowno  {
+    font-size: large;
+    color: aliceblue;
+    display: flex;
+    justify-content: left;
+
+}
+
+  
+.content {
+    display: block;
+    justify-content: left;
+    align-items: start;
+    padding-top: 5%;
+
 }
 
 
-  
-  
-  
+.content h1  {
+    color: aliceblue;
+    font-size: 40px;
+}
