@@ -149,6 +149,10 @@ body  {
     color: aliceblue;
     display: flex;
     justify-content: left;
+    font-size: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 
 }
 
@@ -157,12 +161,4 @@ body  {
     display: block;
     justify-content: left;
     align-items: start;
-    padding-top: 5%;
-
-}
-
-
-.content h1  {
-    color: aliceblue;
-    font-size: 40px;
-}
+    padding-top: 8
