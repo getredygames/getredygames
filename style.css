@@ -48,23 +48,25 @@ table {
 }
 
 
-.main-container {
+.main-cointaner {
     width: 100%;
     height: 100px;
-    background-color: rgb(27 27 27);
-    display: flex;
-    justify-content: center;
+    display: flex;  
+    border-bottom: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, crimson, red);
+    background-color: red;
+    justify-content: space-around;
+    flex-direction: row;
     
-
 }
 
 .logo {
+    background-color: aqua;
     display: flex;
-    background-color: rgb(27 27 27);
-    width: 75%;
-    height: 100%;
-    flex-direction: row;
-    justify-content: flex-end;
+    width: 85%;
+    justify-content: end;
+
 
 }
 
@@ -85,22 +87,21 @@ table {
 
 
 .pages {
-    background-color: rgb(27 27 27);
+    background-color: blue;
     display: flex;
-    flex-direction: row;
+    width: 70%;
     align-items: center;
     justify-content: center;
-    height: 100%;   
-    width: 65%;
+
 }
 
 .social {
-    background-color: rgb(27 27 27);
+    
     display: flex;
-    width: 20%;
-    height: 100%;
+    width: 15%;
+    background-color: black;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
  
     
 }
@@ -115,6 +116,15 @@ table {
     
 }
 
+.pagelink2 { 
+    font-family: 'NOTO SERIF JP';
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+
 .pages a:hover {
     color: crimson;
     transition-delay:0.05s;
@@ -122,12 +132,10 @@ table {
     
 }
 
-body  {
-    background-color: rgb(27 27 27);
-}
+
 
 .subbody {
-    background-color: rgb(37 37 37);
+   background-color: chocolate;
     height: 100vh;
     width: 100%;
     justify-content: center;
@@ -138,27 +146,88 @@ body  {
 
 .main {
  
-    background-color: rgb(37 37 37);
+    background-color: rebeccapurple;
     display: flex;
-    width: 50%;
+    width: 70%;
     height: 100%;
 }
 
-#gowno  {
-    font-size: large;
-    color: aliceblue;
-    display: flex;
-    justify-content: left;
-    font-size: 80px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
 
+
+.kolor {
+    background-color: rgb(29,29,29);
+ 
 }
 
+.kolor2 {
+    background-color: rgb(245, 245, 245);
+    
+}
+
+.kolor3 {
+    background-color: rgb(27,27,27);
+}
+
+.theme-switch {
+    display: flex;
+
+    height: 25px;
+    position: relative;
+    width: 50px;
+  }
   
-.content {
-    display: block;
-    justify-content: left;
-    align-items: start;
-    padding-top: 8
+  .theme-switch input {
+    display: none;
+  }
+  
+  .theme-switch-wrapper {
+    
+    display: inline-block;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 35px 0 0 20px;
+  }
+  
+  .theme-switch-wrapper em {
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+  
+  .slider {
+    background-color: rgb(41, 41, 41);
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 0.4s;
+  }
+  
+  .slider:before {
+    background-color: rgb(27,27,27);
+    bottom: 1px;
+    content: "";
+    height: 24px;
+    left: 1px;
+    position: absolute;
+    transition: 0.4s;
+    width: 23px;
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: crimson;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+
