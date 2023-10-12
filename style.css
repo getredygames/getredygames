@@ -64,8 +64,8 @@ table {
 .logo {
     background-color: aqua;
     display: flex;
-    width: 85%;
-    justify-content: end;
+    width: 70%;
+    justify-content: space-around;
 
 
 }
@@ -75,13 +75,13 @@ table {
 .zdj  {
     width: 33px;
     height: 33px;
-    padding: 0 8px 0 0;
+    
 }
 
 .sitelogo   {
     height: 93px;
     width: 140px;
-   padding: 5px;
+    padding: 5px;
 }
 
 
@@ -89,31 +89,30 @@ table {
 .pages {
     background-color: blue;
     display: flex;
-    width: 70%;
     align-items: center;
-    justify-content: center;
-
 }
 
 .social {
-    
     display: flex;
-    width: 15%;
+    width: 100%;
     background-color: black;
     align-items: center;
-    justify-content: flex-end;
- 
-    
+    justify-content: space-between;
 }
 
+.social-box {
+    background-color: violet;
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+  }
+
 .pagelink { 
-    
     font-family: 'NOTO SERIF JP';
     font-size: 18px;
     text-decoration: none;
     color: aliceblue;
     padding: 10px;
-    
 }
 
 .pagelink2 { 
@@ -145,7 +144,7 @@ table {
 }
 
 .main {
- 
+    justify-content: space-between;
     background-color: rebeccapurple;
     display: flex;
     width: 70%;
@@ -154,23 +153,9 @@ table {
 
 
 
-.kolor {
-    background-color: rgb(29,29,29);
- 
-}
-
-.kolor2 {
-    background-color: rgb(245, 245, 245);
-    
-}
-
-.kolor3 {
-    background-color: rgb(27,27,27);
-}
 
 .theme-switch {
     display: flex;
-
     height: 25px;
     position: relative;
     width: 50px;
@@ -181,11 +166,11 @@ table {
   }
   
   .theme-switch-wrapper {
-    
-    display: inline-block;
+    background-color: red;
+    display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin: 35px 0 0 20px;
+    
   }
   
   .theme-switch-wrapper em {
@@ -231,3 +216,16 @@ table {
     transform: translateX(26px);
   }
 
+  .kolor {
+    background-color: rgb(29,29,29);
+ 
+}
+
+.kolor2 {
+    background-color: rgb(245, 245, 245);
+    
+}
+
+.kolor3 {
+    background-color: rgb(27,27,27);
+}

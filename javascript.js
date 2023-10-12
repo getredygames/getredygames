@@ -38,4 +38,15 @@ function test () {
     }
     
 }
-
+function link () {
+for (let i = 0 ; i < tablicakolor.length ; i++){
+    tablica[i].classList.remove('kolor')
+    tablica[i].classList.add('kolor2')
+}
+else {
+for (let i = 0 ; i < tablicalink.length ; i++){
+    tablica[i].classList.remove('pagelink2')
+    tablica[i].classList.add('kolor')
+}
+}
+}
