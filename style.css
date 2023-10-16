@@ -54,11 +54,10 @@ table {
     display: flex;  
     border-bottom: 5px solid;
     border-image-slice: 1;
-    border-image-source: linear-gradient(to left, crimson, red);
+    border-image-source: linear-gradient(to left, red,crimson, blue,rgb(12, 25, 33));
     background-color: red;
     justify-content: space-around;
     flex-direction: row;
-    
 }
 
 .logo {
@@ -66,16 +65,11 @@ table {
     display: flex;
     width: 70%;
     justify-content: space-around;
-
-
 }
-
-
 
 .zdj  {
     width: 33px;
     height: 33px;
-    
 }
 
 .sitelogo   {
@@ -84,12 +78,11 @@ table {
     padding: 5px;
 }
 
-
-
 .pages {
     background-color: blue;
     display: flex;
     align-items: center;
+    width: 30%;
 }
 
 .social {
@@ -101,17 +94,16 @@ table {
 }
 
 .social-box {
-    background-color: violet;
     display: flex;
+    width: 12%;
     justify-content: space-between;
-    width: 15%;
   }
 
 .pagelink { 
     font-family: 'NOTO SERIF JP';
     font-size: 18px;
     text-decoration: none;
-    color: aliceblue;
+
     padding: 10px;
 }
 
@@ -119,19 +111,21 @@ table {
     font-family: 'NOTO SERIF JP';
     font-size: 18px;
     text-decoration: none;
-    color: black;
+
     padding: 10px;
 }
 
-
-.pages a:hover {
+.kolor a:hover {
     color: crimson;
     transition-delay:0.05s;
     background-color: rgb(41, 41, 41);
-    
 }
 
-
+.kolor2 a:hover {
+  color: crimson;
+  transition-delay:0.05s;
+  background-color: rgb(235, 235, 235);
+}
 
 .subbody {
    background-color: chocolate;
@@ -140,19 +134,16 @@ table {
     justify-content: center;
     display: flex;
     align-items: center;
-
 }
 
 .main {
-    justify-content: space-between;
     background-color: rebeccapurple;
     display: flex;
     width: 70%;
     height: 100%;
+    flex-direction: column;
+    box-shadow: 0px 6px 10px rgba(177, 177, 177, 0.8);
 }
-
-
-
 
 .theme-switch {
     display: flex;
@@ -166,7 +157,6 @@ table {
   }
   
   .theme-switch-wrapper {
-    background-color: red;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -179,7 +169,7 @@ table {
   }
   
   .slider {
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(233,233,233 );
     bottom: 0;
     cursor: pointer;
     left: 0;
@@ -216,16 +206,82 @@ table {
     transform: translateX(26px);
   }
 
-  .kolor {
-    background-color: rgb(29,29,29);
- 
+
+
+.bigpudelko1  {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  flex-direction: row;
+  padding-top: 3%;
+  border-style: inset;
+  border-color: crimson;
+}
+
+
+.boxleft1 {
+  display: flex;
+  width: 40%;
+  justify-content: flex-start;
+}
+
+.boxright1  {
+  display: flex;
+  width: 50%;
+}
+
+.lolibird {
+  width: 100%;
+  scale: 50%;
+  justify-content: flex-start;
+}
+
+.zdj1 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding-left: 40%;
+}
+
+.text2  {
+  font-size: 25px;
+  padding-top: 19%;
+  padding-left: 0%;
+  color: aliceblue;
+}
+
+.text3  {
+  padding-bottom: 4%;
+}
+
+
+.kolor {
+  background-color: rgb(29,29,29);
+
 }
 
 .kolor2 {
-    background-color: rgb(245, 245, 245);
-    
+  background-color: rgb(245, 245, 245);
+  
 }
 
 .kolor3 {
-    background-color: rgb(27,27,27);
+  background-color: rgb(27,27,27);
+}
+
+.kolor4 {
+  background-color: rgb(233, 233, 233);
+}
+
+.kolor a {
+color: aliceblue;
+}
+
+.kolor2 a {
+color: black;
+background-color:rgb(245, 245, 245);
+}
+
+.kolor2  li {
+  color: black;
 }
